@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import { StatusBar, SafeAreaView, TouchableOpacity } from 'react-native'
 import Header from '../../components/Header';
 import { RootStackParamList } from '../../routes/AppStack';
-import { Actions, Answer, Button, ButtonText, ButtonWrapper, Container, Levels, Question, Subtitle, Title, Wrapper } from './FlashStyles';
+import { Answer, Button, ButtonText, ButtonWrapper, Container, Levels, Question, Subtitle, Title, Wrapper } from './FlashStyles';
 import { Feather } from '@expo/vector-icons'
 
 function Flash() {

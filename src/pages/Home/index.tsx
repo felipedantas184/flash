@@ -13,6 +13,9 @@ function Home() {
   function NavigateToDecks() {
     navigate('Decks');
   }
+  function NavigateToNewSubject() {
+    navigate('NewSubject');
+  }
   
   return (
     <SafeAreaView style={{ marginTop: StatusBar.currentHeight}} >
@@ -24,7 +27,7 @@ function Home() {
           <Block title='Ortopedia' navigateFurther={NavigateToDecks} />
           <Block title='Geriatria' navigateFurther={NavigateToDecks} />
         </Wrapper>
-        <Button onPress={NavigateToDecks} >
+        <Button onPress={NavigateToNewSubject} >
           <ButtonText>Adicionar Matéria</ButtonText>
         </Button>
       </Container>

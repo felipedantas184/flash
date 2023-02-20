@@ -14,6 +14,7 @@ export const Wrapper = styled(View)`
   flex-wrap: wrap;
 `
 export const Button = styled(TouchableOpacity)`
+  width: 100%;
   background-color: #0E0E52;
   border-radius: 8px;
   padding: 8px 16px;

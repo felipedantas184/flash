@@ -1,33 +1,37 @@
 import styled from 'styled-components'
-import { ScrollView, View, Text } from 'react-native'
+import { View, Text, TextInput } from 'react-native'
 import { TouchableOpacity } from 'react-native-gesture-handler'
 
-export const Container = styled(ScrollView)`
+export const Container = styled(View)`
   background-color: #ECECEC;
   height: 100%;
+  justify-content: space-between;
 `
 export const Wrapper = styled(View)`
-  flex-direction: row;
+  flex: 1;
+  flex-direction: column;
   padding: 16px;
   width: 100%;
-  flex: 2;
   flex-wrap: wrap;
 `
-export const Menu = styled(View)`
-  flex-direction: row;
+export const Group = styled(View)`
+  flex-direction: column;
   width: 100%;
-  justify-content: space-between;
-  align-items: center;
   margin-bottom: 16px;
 `
-export const Back = styled(TouchableOpacity)`
-  flex-direction: row;
-  align-items: center;
-`
-export const MenuText = styled(Text)`
-  color: #4C4C4C;
-  font-size: 13px;
+export const Label = styled(Text)`
+  color: #13131A;
+  font-size: 17px;
   font-weight: 500;
+  margin-bottom: 8px;
+`
+export const Input = styled(TextInput)`
+  width: 100%;
+  padding: 8px 16px;
+  color: #13131A;
+  font-size: 17px;
+  border-radius: 8px;
+  background-color: #D4D4D4;
 `
 export const Button = styled(TouchableOpacity)`
   width: 100%;
